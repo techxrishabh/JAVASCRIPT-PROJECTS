@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Grand+Hotel&family=Montserrat:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +22,7 @@
 body {
   padding: 15px;
   color: #777;
+  font-family: "Comic Neue", cursive;
 }
 .logo-box {
   font-size: 50px;
@@ -40,4 +42,29 @@ body {
   bottom: 40px;
   left: 40px;
   /* margin: 0; */
+}
+.heading-primary {
+  color: #d7d7cb;
+  text-transform: uppercase;
+}
+.heading-primary-main {
+  display: block;
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 35px;
+  text-shadow: -1px 0 #000, 0 10px #000, 1px 0 #000, 0 -1px #000;
+}
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 15px;
+  text-shadow: -1px 0 #000, 0 10px #000, 1px 0 #000, 0 -1px #000;
+}
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 60px;
 }
