@@ -126,3 +126,18 @@ body {
 }
 
 /* Making the animation to put that in the header ========= */
+
+/* animation for kaido's spiked weapon  */
+.logo {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    color: #000;
+    transform: rotate(360deg);
+  }
+}
