@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(136, 27, 45, 0.8),
+      rgb(20, 91, 214, 0.8)
+    ),
+    url("image/wallpaperflare.com_wallpaper\ \(1\).jpg");
+  height: 95vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* clip-path: polygon(x y, x y, x y); */
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+  position: relative;
+}
+body {
+  padding: 15px;
+  color: #777;
+}
+.logo-box {
+  font-size: 50px;
+  color: #d7d7cb;
+  display: inline;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  text-shadow: -1px 0 #000, 0 10px #000, 1px 0 #000, 0 -1px #000;
+}
+.music {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  /* margin: 0; */
+}
