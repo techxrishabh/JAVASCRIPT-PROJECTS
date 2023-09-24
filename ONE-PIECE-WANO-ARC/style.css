@@ -54,7 +54,6 @@ body {
   font-weight: 400;
   letter-spacing: 35px;
   text-shadow: -1px 0 #000, 0 10px #000, 1px 0 #000, 0 -1px #000;
-  margin-left: -15px;
 
   /* putting-our-animation-here */
 
@@ -83,6 +82,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 60px;
+  text-align: center;
 }
 
 /* Making the animation and name it moveInLeft to put that in the header ========= */
@@ -140,4 +140,26 @@ body {
     color: #000;
     transform: rotate(360deg);
   }
+}
+
+/* animation for kaido's spiked weapon  */
+
+/* designing our button  */
+.btn-white {
+  color: #d7d7cb;
+}
+button {
+  padding: 1.5rem 3rem;
+  border-radius: 10rem;
+  font-size: 1rem;
+  background-color: rgb(215, 215, 203, 0.1);
+  font-weight: 400;
+  border: none;
+  color: #d7d7cb;
+  text-transform: uppercase;
+  font-family: "Comic Neue", cursive;
+  letter-spacing: 0.3rem;
+}
+a {
+  text-decoration: none;
 }
