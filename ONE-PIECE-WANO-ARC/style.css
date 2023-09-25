@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* main header file with wallpaper in it */
 .header {
   background-image: linear-gradient(
       to right bottom,
@@ -19,6 +20,8 @@
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
   position: relative;
 }
+/* main header file with wallpaper in it */
+
 body {
   padding: 15px;
   color: #777;
@@ -33,6 +36,7 @@ body {
   left: 40px;
   text-shadow: -1px 0 #000, 0 10px #000, 1px 0 #000, 0 -1px #000;
 }
+/* music play button - Kozuki Hiyori*/
 .music {
   border-radius: 50%;
   height: 70px;
@@ -41,13 +45,17 @@ body {
   position: absolute;
   bottom: 40px;
   left: 40px;
+
   /* margin: 0; */
 }
+/* music play button - Kozuki Hiyori*/
+
 .heading-primary {
   color: #d7d7cb;
   text-transform: uppercase;
   backface-visibility: hidden;
 }
+/* main heading one piece =============*/
 .heading-primary-main {
   display: block;
   font-size: 4rem;
@@ -62,6 +70,8 @@ body {
   animation-delay: 1s;
   animation-iteration-count: 2;
 }
+/* main heading one piece ============ */
+/*sub-header for our main heading =======*/
 .heading-primary-sub {
   display: block;
   font-size: 20px;
@@ -76,6 +86,9 @@ body {
   animation-iteration-count: 2;
   animation-delay: 1s;
 }
+/*sub-header for our main heading =======*/
+
+/*all the heading files in center =========== */
 .text-box {
   position: absolute;
   top: 50%;
@@ -84,6 +97,7 @@ body {
   line-height: 60px;
   text-align: center;
 }
+/*all the heading files in center =========== */
 
 /* Making the animation and name it moveInLeft to put that in the header ========= */
 
