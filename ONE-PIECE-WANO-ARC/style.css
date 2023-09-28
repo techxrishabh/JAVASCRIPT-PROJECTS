@@ -27,7 +27,7 @@ body {
   color: #777;
   font-family: "Comic Neue", cursive;
 }
-.logo-box {
+.header__logo-box {
   font-size: 50px;
   color: #d7d7cb;
   display: inline;
@@ -37,7 +37,7 @@ body {
   text-shadow: -1px 0 #000, 0 10px #000, 1px 0 #000, 0 -1px #000;
 }
 /* music play button - Kozuki Hiyori*/
-.music {
+.header__music-logo {
   border-radius: 50%;
   height: 70px;
   width: 70px;
@@ -56,7 +56,7 @@ body {
   backface-visibility: hidden;
 }
 /* main heading one piece =============*/
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 4rem;
   font-weight: 400;
@@ -72,7 +72,7 @@ body {
 }
 /* main heading one piece ============ */
 /*sub-header for our main heading =======*/
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 20px;
   font-weight: 400;
@@ -89,7 +89,7 @@ body {
 /*sub-header for our main heading =======*/
 
 /*all the heading files in center =========== */
-.text-box {
+.header__text-box {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -142,7 +142,7 @@ body {
 /* Making the animation to put that in the header ========= */
 
 /* animation for kaido's spiked weapon  */
-.logo {
+.header__logo {
   animation: spin 1s linear infinite;
 }
 
