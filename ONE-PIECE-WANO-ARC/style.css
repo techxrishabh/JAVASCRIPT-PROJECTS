@@ -37,7 +37,7 @@ body {
   text-shadow: -1px 0 #000, 0 10px #000, 1px 0 #000, 0 -1px #000;
 }
 /* music play button - Kozuki Hiyori*/
-.header__music-logo {
+.header__music--logo {
   border-radius: 50%;
   height: 70px;
   width: 70px;
@@ -159,7 +159,7 @@ body {
 /* animation for kaido's spiked weapon  */
 
 /* designing our button  */
-.btn-white {
+.btn--white {
   color: #d7d7cb;
 }
 button {
